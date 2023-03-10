@@ -1,21 +1,35 @@
 **Getting Started with OpenBCI and Python:**
+
 **Lab Streaming Layer and Psychopy **
 
 Resources: 
 
 OpenBCI Documentation:
+
 http://docs.openbci.com/OpenBCI%20Software/01-OpenBCI_GUI
+
 https://github.com/OpenBCI/OpenBCI_Processing
+
 Python documentation: 
+
 https://docs.python.org/3/library/index.html
+
 API for psychopy: 
+
 http://www.psychopy.org/api/api.html
+
 OpenBCI_LSL package: 
+
 https://github.com/OpenBCI/OpenBCI_LSL
+
 API for pylsl: 
+
 https://github.com/sccn/labstreaminglayer
+
 https://github.com/sccn/labstreaminglayer/blob/master/LSL/liblsl-Python/pylsl/pylsl.py
+
 Command overview for setting up data stream:
+
 https://github.com/OpenBCI/Docs/blob/master/OpenBCI%20Software/04-OpenBCI_Cyton_SDK.md
 
 Setting up your computer  
