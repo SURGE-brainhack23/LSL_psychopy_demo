@@ -59,20 +59,29 @@ PsychoPy setup:
 
 2.	The pylsl module (necessary for data streaming from the headset) may not automatically work with the standalone PsychoPy application and will need to first be moved to the appropriate directory to be used. 	
 You will need to locate the current directory of the pylsl module and drag the folder titled ‘pylsl’ to the appropriate PsychoPy directory. You can do this with the following steps: 
+
 a.	Open python or ipython and type the following:
 import pylsl
 print(pylsl.__file__)
 		This will return a string with the location of your pylsl module
+		
 b.	Copy the directory up to the folder before ‘/pylsl/’. For example if the directory is:
 /Users /.local/lib/python3.6/site-packages/pylsl/__init__.py
 Copy: /Users/.local/lib/python3.6/site-packages
+
 c.	Return to the command line terminal and type open followed by the directory you just copied. 
 This will open a finder window where you will see a folder titled ‘pylsl’
+
 d.	In a second finder window:
+
 i.	Go to ‘Applications’
+
 ii.	Right click on the PsychoPy application and click show package contents
+
 iii.	Navigate to Contents/Resources/lib/python3.8
+
 e.	Drag and drop the ‘pylsl’ folder into this directory 
+
 
 Note: if you have trouble importing any other external modules into PsychoPy you can repeat this process. 
 
@@ -109,4 +118,4 @@ There are 2 PsychoPy scripts to help get you started with your project:
 •	The program stops reading data and switches stimuli when a key is pressed.
 •	Basic processing of the signals is done to subtract the fixation response from the grating response.
 •	This script shows some of the functionality of psychopy and how it can be integrated with OpenBCI data.
-![image](https://user-images.githubusercontent.com/25189351/224364690-74afb27f-c401-4c97-ba03-8c35ec9413dd.png)
+
